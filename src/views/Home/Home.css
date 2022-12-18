@@ -1,5 +1,111 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .body {
     width: 80%;
-    height: 80%;
-    background-color: aliceblue;
+    height: 70%;
+    background-image: url('../../assets/images/background2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 4px black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.list {
+    display: flex;
+    justify-content: end;   
+    list-style: none;
+    padding: 1rem;
+}
+
+.list li {
+    margin-right: 4rem;
+    color: #fff;
+    font-family: 'Exo';
+}
+
+.list li:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.div_img-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+}
+
+.div_ctt {
+    margin: 2rem 0 0 2rem;
+    list-style: none;
+}
+
+.div_ctt li {
+    padding: 1.5rem 0;
+    font-size: 25px;
+}
+
+.div_ctt li a {
+    color: #fff;
+}
+
+.div_ctt li a:hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.div_img {
+   height: 100%;
+   width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.div_img img { 
+  clip-path: circle(40%);
+}
+
+.div_data {
+    margin: 7rem 2rem 0 0;
+    font-family: 'Exo';
+}
+
+.h3_1 {
+    color: brown;
+}
+
+.h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.h3_2 {
+    color: goldenrod;
+    text-align: end;
+}
+
+.div_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button {
+    border-radius: .3rem;
+    font-family: 'Exo';
+    font-weight: 700;
+}
+
+.button:hover {
+   background-color: goldenrod;
+   color: #fff;
+   cursor: pointer;
 }
