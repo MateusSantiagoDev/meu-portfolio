@@ -74,3 +74,86 @@
     color: goldenrod;
     cursor: pointer;
 }
+
+@media (max-width: 375px) {
+
+    .skill_body {
+       height: 90%;          
+    }
+
+    .soft_h1 {
+        margin-left: 0;
+    }
+
+    .voltar {
+       padding: 0;
+    }
+}
+
+@media (max-width: 667px) {
+    .ul  {
+      margin-top: 0;
+    }
+
+    .hard_h1 {
+        margin-top: 0;
+    }
+
+    .soft_h1 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .voltar {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 414px) {
+    .hard_h1 {
+        margin-top: 3rem;
+    }
+
+    .soft_h1 {
+        margin-top: 3rem;
+    }
+
+    .voltar {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 896px) {
+    .ul {
+      margin-top: 0; 
+    }
+
+    .soft_h1 {
+        margin-left: 0;
+    }
+
+    .voltar {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 740px) {
+    .hard_h1 {
+        margin-top: 0;
+    }
+
+    .soft_h1{
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .hard_h1 {
+        margin-top: 2rem;
+    }
+
+    .soft_h1 {
+        margin-top: 2rem;
+    }
+}
