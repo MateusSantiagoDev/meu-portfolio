@@ -22,7 +22,7 @@ export function SobreMim() {
             desenvolver cada vez mais meus conhecimentos e apoiar os objetivos
             da empresa.
           </span>
-          <h2>Sobre mim</h2>
+          <h2 className="sobre-mim">Sobre mim</h2>
           <span>
             Gosto de pescar, viajar, amo a tecnologia, nadar, dirigir e assistir filmes, sou
             uma pessoa simples que sabe conviver e respeitar as diferenças
