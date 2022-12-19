@@ -11,7 +11,7 @@ export function Home() {
     <div className="home">
       <div className="body">
         <header className="header">
-          <ul className="list">
+          <div className="list">
             <button onClick={() => {
 
             }}>Home</button>
@@ -21,7 +21,7 @@ export function Home() {
             <button onClick={() => {
               
             }}>Portfolio</button>
-          </ul>
+          </div>
         </header>
         <div className="div_img-data">
             <div className="div_ctt">

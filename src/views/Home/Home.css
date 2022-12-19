@@ -20,14 +20,16 @@
 .list {
     display: flex;
     justify-content: end;   
-    list-style: none;
     padding: 1rem;
 }
 
 .list button {
     margin-right: 4rem;
-    color: #fff;
+    color: black;
     font-family: 'Exo';
+    font-weight: 700;
+    border: none;
+    border-radius: .3rem;
 }
 
 .list button:hover {
@@ -96,7 +98,7 @@
 .div_button {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .button {
