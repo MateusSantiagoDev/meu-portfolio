@@ -12,9 +12,7 @@
     background-image: url('../../assets/images/background2.webp');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    border: solid 4px black;
-    box-shadow: 2px 2px 2px 2px black;
+    background-size: cover;  
 }
 
 .list {
