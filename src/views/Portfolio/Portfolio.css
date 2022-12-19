@@ -52,3 +52,91 @@
      text-align: start; 
      color: #fff;
 }
+
+@media (max-width: 375px) {
+    .portfolio_body {
+        height: 80%;
+    }
+
+    .trabalho {
+        display: none;
+    }
+
+    .h1_portfolio {
+        margin-top: 2rem;
+    }
+    .button_portfolio {
+        margin-top: 0;
+        margin-right: 8%;
+    }
+}
+
+@media (max-width: 667px) {
+    .trabalho {
+        display: none;
+    }
+
+    .div_span {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .button_portfolio {
+        margin-top: 0;
+    }
+
+    .h1_portfolio h1 {
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .div_span h3 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .button_portfolio {
+        margin-right: 8%;
+    }
+}
+
+@media (max-width: 896px) {
+    .trabalho {
+        display: none;
+    }
+
+    .div_span {
+        margin-top: 0;
+        padding: 0 .3rem;
+    }
+}
+
+@media (max-width: 915px) {
+    .trabalho {
+        display: none;
+    }
+
+    .div_span {
+        margin-top: 0;
+        padding: 0 .3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .div_span {
+        padding: 0 .5rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .div_span {
+        margin-top: 0;
+        padding: 0 .5rem;
+    }
+
+    .h1_portfolio h1 {
+        margin-top: 0;
+        padding: 0;
+    }
+}
