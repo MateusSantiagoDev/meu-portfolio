@@ -1,0 +1,56 @@
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio_body {
+    width: 80%;
+    height: 70%;
+    background-image: url('../../assets/images/background2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.h1_portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    cursor: context-menu;
+    color: goldenrod;
+}
+
+.button_portfolio {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .3rem;
+    padding: 0 .5rem;
+    font-family: 'Exo';
+    font-weight: 700;
+}
+
+.button_portfolio:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.div_span {
+    padding: 2rem;    
+}
+
+.div_span h3 {
+    text-align: center;
+    color: goldenrod;
+}
+
+.div_span span {
+     text-align: start; 
+     color: #fff;
+}

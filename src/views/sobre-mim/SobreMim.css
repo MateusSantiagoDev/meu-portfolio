@@ -1,0 +1,46 @@
+.sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_sobre {
+    height: 70%;
+    width: 80%;
+    background-image: url('../../assets/images/background2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Exo';
+}
+
+.div_button-sobre {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.button_sobre {
+    margin: 1rem 1rem 0 0;
+    border: none;
+    border-radius: .3rem;
+    font-weight: 700;
+}
+
+.button_sobre:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.div_perfil {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+.div_perfil h2 {
+    color: goldenrod;
+}

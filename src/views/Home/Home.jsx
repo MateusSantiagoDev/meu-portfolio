@@ -19,7 +19,7 @@ export function Home() {
                navigate('/skills')
             }}>Skills</button>
             <button onClick={() => {
-              
+              navigate('/Portfolio')
             }}>Portfolio</button>
           </div>
         </header>
@@ -37,7 +37,9 @@ export function Home() {
             <h1 className="h1">Developer</h1>
             <h3 className="h3_2">Full Stack</h3>
             <div className="div_button">
-            <button className="button">Sobre mim</button>
+            <button className="button" onClick={() => {
+              navigate('/sobremim')
+            }}>Sobre mim</button>
             </div>
           </div>
         </div>
