@@ -13,9 +13,6 @@ export function Home() {
         <header className="header">
           <div className="list">
             <button onClick={() => {
-
-            }}>Home</button>
-            <button onClick={() => {
                navigate('/skills')
             }}>Skills</button>
             <button onClick={() => {
