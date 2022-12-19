@@ -1,0 +1,78 @@
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.skill_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 70%;
+    background-image: url('../../assets/images/background2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.hard {
+    width: 50%;
+    height: 100%;
+    font-family: 'Exo';
+    color: #fff;
+}
+
+.soft {
+    width: 50%;
+    height: 100%;
+    font-family: 'Exo';
+    color: #fff;
+}
+
+.div_soft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voltar {
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 1rem;
+}
+
+.hard_h1 {
+    text-align: center;
+    color: goldenrod;
+    cursor: context-menu;
+}
+
+.soft_h1 {
+    margin-left: 35%;
+    color: goldenrod;   
+    cursor: context-menu; 
+}
+
+.ul {
+    margin-top: 5rem;
+    cursor: context-menu;
+}
+
+.voltar {
+    border: none;
+    border-radius: .3rem;
+    padding: 0 .5rem;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: black;
+    background-color: #fff;
+}
+
+.voltar:hover {
+    color: goldenrod;
+    cursor: pointer;
+}

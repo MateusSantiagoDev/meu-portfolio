@@ -3,21 +3,29 @@ import foto from "../../assets/images/foto8.png";
 import { RiWhatsappFill } from 'react-icons/ri';
 import { GoMarkGithub } from 'react-icons/go';
 import { HiOutlineMail } from 'react-icons/hi'
+import { useNavigate } from "react-router-dom";
 
 export function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="body">
         <header className="header">
           <ul className="list">
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
+            <button onClick={() => {
+
+            }}>Home</button>
+            <button onClick={() => {
+               navigate('/skills')
+            }}>Skills</button>
+            <button onClick={() => {
+              
+            }}>Portfolio</button>
           </ul>
         </header>
         <div className="div_img-data">
             <div className="div_ctt">
-                <li className="li_whatssap"><a href="/" target="_blanc"><RiWhatsappFill/></a></li>
+                <li className="li_whatssap"><a href="https://wa.me/5511977798990" target="_blanc"><RiWhatsappFill/></a></li>
                 <li className="li_email"><a href="mailto:mateus_santiago2.3@outlook.com" target="_blanc"><HiOutlineMail/></a></li>
                 <li className="li_gitHub"><a href="https://github.com/MateusSantiagoDev" target="_blanc"><GoMarkGithub/></a></li>
             </div>

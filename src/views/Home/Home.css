@@ -24,13 +24,13 @@
     padding: 1rem;
 }
 
-.list li {
+.list button {
     margin-right: 4rem;
     color: #fff;
     font-family: 'Exo';
 }
 
-.list li:hover {
+.list button:hover {
     color: goldenrod;
     cursor: pointer;
 }
@@ -76,6 +76,7 @@
 .div_data {
     margin: 7rem 2rem 0 0;
     font-family: 'Exo';
+    cursor: context-menu;
 }
 
 .h3_1 {
