@@ -157,3 +157,47 @@
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 915px) {
+    .hard_h1 {
+        margin-top: 0;
+    }
+
+    .soft_h1 {
+        margin-top: 0;
+        margin-left: 10%;
+    }
+
+    .ul {
+        margin-top: 0;
+    }
+
+    .voltar {
+        margin-left: 30%;
+    }      
+}
+
+@media (max-width: 412px) {
+    .voltar {
+        margin-left: 25%;
+    } 
+}
+
+@media (max-width: 1024px) {
+    .voltar {
+        margin-left: 30%;
+    } 
+} 
+
+@media (max-width: 540px) {
+    .hard_h1 {
+        margin-top: 4rem;
+    }
+
+    .soft_h1 {
+        margin-top: 4rem;
+    }
+    .voltar {
+        margin-left: 25%;
+    } 
+}

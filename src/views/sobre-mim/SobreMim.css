@@ -102,3 +102,40 @@
         display: none;
     }
 } 
+
+@media (max-width: 736px) {
+    .div_perfil {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 667px) {
+    .sobre-mim {
+        display: none;
+    }
+}
+
+@media (max-width: 844px) {
+    .div_perfil {
+        padding: 0;
+    }
+}
+
+@media (max-width: 851px) {
+    .div_perfil {
+        padding: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .div_perfil {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 812px) {
+    .div_perfil {
+        margin-top: 0;
+    }
+}
+ 
